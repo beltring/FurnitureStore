@@ -8,6 +8,17 @@
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Gelasio-Bold.ttf">
+            <string>Gelasio-Bold</string>
+        </array>
+        <array key="Gelasio-SemiBold.ttf">
+            <string>Gelasio-SemiBold</string>
+        </array>
+        <array key="NunitoSans-Regular.ttf">
+            <string>NunitoSans-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -20,13 +31,43 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImage" translatesAutoresizingMaskIntoConstraints="NO" id="Dra-5q-Npl">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MAKE YOUR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gHH-iX-y6Z">
+                                <rect key="frame" x="30" y="275" width="354" height="30.5"/>
+                                <fontDescription key="fontDescription" name="Gelasio-SemiBold" family="Gelasio" pointSize="24"/>
+                                <color key="textColor" red="0.37647058823529411" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME BEAUTIFUL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCR-U0-NcM">
+                                <rect key="frame" x="30" y="320.5" width="354" height="38.5"/>
+                                <fontDescription key="fontDescription" name="Gelasio-Bold" family="Gelasio" pointSize="30"/>
+                                <color key="textColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The best simple place where you discover most wonderful furnitures and make your home beautiful" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJY-ek-EJE">
+                                <rect key="frame" x="64.5" y="394" width="285" height="105"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="285" id="Cxy-O0-NIm"/>
+                                    <constraint firstAttribute="height" constant="105" id="k0a-Hd-RYn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NunitoSans-Regular" family="Nunito Sans" pointSize="18"/>
+                                <color key="textColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="KJY-ek-EJE" firstAttribute="top" secondItem="WCR-U0-NcM" secondAttribute="bottom" constant="35" id="3fG-mC-TDp"/>
                             <constraint firstItem="Dra-5q-Npl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CWw-EJ-Z3m"/>
+                            <constraint firstItem="WCR-U0-NcM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="DEX-lW-VEu"/>
                             <constraint firstItem="Dra-5q-Npl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Fke-0G-mZl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gHH-iX-y6Z" secondAttribute="trailing" constant="30" id="J9q-2i-mbK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WCR-U0-NcM" secondAttribute="trailing" constant="30" id="Lfj-by-9Lk"/>
+                            <constraint firstItem="WCR-U0-NcM" firstAttribute="top" secondItem="gHH-iX-y6Z" secondAttribute="bottom" constant="15" id="Zwu-OR-Vqo"/>
+                            <constraint firstItem="KJY-ek-EJE" firstAttribute="centerX" secondItem="Dra-5q-Npl" secondAttribute="centerX" id="iBX-6L-Doj"/>
+                            <constraint firstItem="gHH-iX-y6Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="jE4-gw-TxI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Dra-5q-Npl" secondAttribute="bottom" constant="-34" id="jvQ-aC-nqd"/>
+                            <constraint firstItem="gHH-iX-y6Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="231" id="nmH-Q0-MDR"/>
                             <constraint firstItem="Dra-5q-Npl" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="zpF-QQ-4Bk"/>
                         </constraints>
                     </view>

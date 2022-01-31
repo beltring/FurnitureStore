@@ -14,6 +14,9 @@
 		14834F6827A0867A0079DEB4 /* FurnitureStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14834F6627A0867A0079DEB4 /* FurnitureStore.xcdatamodeld */; };
 		14834F6A27A0867B0079DEB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14834F6927A0867B0079DEB4 /* Assets.xcassets */; };
 		14834F6D27A0867B0079DEB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14834F6B27A0867B0079DEB4 /* LaunchScreen.storyboard */; };
+		14C00C2E27A850870091B76A /* Gelasio-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14C00C2D27A850870091B76A /* Gelasio-Bold.ttf */; };
+		14C00C3027A850940091B76A /* Gelasio-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14C00C2F27A850940091B76A /* Gelasio-SemiBold.ttf */; };
+		14C00C3327A851180091B76A /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14C00C3227A851180091B76A /* NunitoSans-Regular.ttf */; };
 		A7758A3E6B5654F83F0CE2A2 /* Pods_FurnitureStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F3D4B73875069B3DB456FE /* Pods_FurnitureStore.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		14834F6927A0867B0079DEB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14834F6C27A0867B0079DEB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14834F6E27A0867B0079DEB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C00C2D27A850870091B76A /* Gelasio-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-Bold.ttf"; sourceTree = "<group>"; };
+		14C00C2F27A850940091B76A /* Gelasio-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-SemiBold.ttf"; sourceTree = "<group>"; };
+		14C00C3227A851180091B76A /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
 		4C7438013CB8BE6F2B74F696 /* Pods-FurnitureStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FurnitureStore.debug.xcconfig"; path = "Target Support Files/Pods-FurnitureStore/Pods-FurnitureStore.debug.xcconfig"; sourceTree = "<group>"; };
 		A09289D0486093216845E686 /* Pods-FurnitureStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FurnitureStore.release.xcconfig"; path = "Target Support Files/Pods-FurnitureStore/Pods-FurnitureStore.release.xcconfig"; sourceTree = "<group>"; };
 		A0F3D4B73875069B3DB456FE /* Pods_FurnitureStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FurnitureStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +86,7 @@
 		141E832427A1C5070017C3CE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				14C00C2B27A850570091B76A /* Fonts */,
 				14834F6927A0867B0079DEB4 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -125,13 +132,38 @@
 			path = FurnitureStore;
 			sourceTree = "<group>";
 		};
+		14C00C2B27A850570091B76A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				14C00C3127A850F00091B76A /* NuninoSans */,
+				14C00C2C27A8506F0091B76A /* Gelasio */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		14C00C2C27A8506F0091B76A /* Gelasio */ = {
+			isa = PBXGroup;
+			children = (
+				14C00C2D27A850870091B76A /* Gelasio-Bold.ttf */,
+				14C00C2F27A850940091B76A /* Gelasio-SemiBold.ttf */,
+			);
+			path = Gelasio;
+			sourceTree = "<group>";
+		};
+		14C00C3127A850F00091B76A /* NuninoSans */ = {
+			isa = PBXGroup;
+			children = (
+				14C00C3227A851180091B76A /* NunitoSans-Regular.ttf */,
+			);
+			path = NuninoSans;
+			sourceTree = "<group>";
+		};
 		413C20586F1183B3065DDBC4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				4C7438013CB8BE6F2B74F696 /* Pods-FurnitureStore.debug.xcconfig */,
 				A09289D0486093216845E686 /* Pods-FurnitureStore.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -203,8 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				14834F6D27A0867B0079DEB4 /* LaunchScreen.storyboard in Resources */,
+				14C00C3327A851180091B76A /* NunitoSans-Regular.ttf in Resources */,
 				14834F6A27A0867B0079DEB4 /* Assets.xcassets in Resources */,
+				14C00C2E27A850870091B76A /* Gelasio-Bold.ttf in Resources */,
 				14834F6527A0867A0079DEB4 /* Main.storyboard in Resources */,
+				14C00C3027A850940091B76A /* Gelasio-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
