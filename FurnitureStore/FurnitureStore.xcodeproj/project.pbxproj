@@ -7,8 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14515AD527B2FD9F00FB8C4F /* NunitoSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515AC727B2FD9F00FB8C4F /* NunitoSans-SemiBoldItalic.ttf */; };
+		14515AD627B2FD9F00FB8C4F /* NunitoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515AC827B2FD9F00FB8C4F /* NunitoSans-BoldItalic.ttf */; };
+		14515AD727B2FD9F00FB8C4F /* NunitoSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515AC927B2FD9F00FB8C4F /* NunitoSans-ExtraLightItalic.ttf */; };
+		14515AD827B2FD9F00FB8C4F /* NunitoSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515ACA27B2FD9F00FB8C4F /* NunitoSans-ExtraBoldItalic.ttf */; };
+		14515AD927B2FD9F00FB8C4F /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515ACB27B2FD9F00FB8C4F /* NunitoSans-SemiBold.ttf */; };
+		14515ADA27B2FD9F00FB8C4F /* NunitoSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515ACC27B2FD9F00FB8C4F /* NunitoSans-ExtraLight.ttf */; };
+		14515ADB27B2FD9F00FB8C4F /* NunitoSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515ACD27B2FD9F00FB8C4F /* NunitoSans-BlackItalic.ttf */; };
+		14515ADC27B2FD9F00FB8C4F /* NunitoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515ACE27B2FD9F00FB8C4F /* NunitoSans-Light.ttf */; };
+		14515ADD27B2FD9F00FB8C4F /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515ACF27B2FD9F00FB8C4F /* NunitoSans-Bold.ttf */; };
+		14515ADE27B2FD9F00FB8C4F /* NunitoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515AD027B2FD9F00FB8C4F /* NunitoSans-ExtraBold.ttf */; };
+		14515ADF27B2FD9F00FB8C4F /* NunitoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515AD127B2FD9F00FB8C4F /* NunitoSans-Black.ttf */; };
+		14515AE027B2FD9F00FB8C4F /* NunitoSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515AD227B2FD9F00FB8C4F /* NunitoSans-LightItalic.ttf */; };
+		14515AE127B2FD9F00FB8C4F /* NunitoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515AD327B2FD9F00FB8C4F /* NunitoSans-Italic.ttf */; };
+		14515AE227B2FD9F00FB8C4F /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14515AD427B2FD9F00FB8C4F /* NunitoSans-Regular.ttf */; };
 		1469D3B527A86B09001C5CE6 /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1469D3B427A86B09001C5CE6 /* RootNavigationController.swift */; };
 		1469D3B927A86D5F001C5CE6 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1469D3B827A86D5F001C5CE6 /* UIViewControllerExtension.swift */; };
+		1478C0E627AD602F00DC25F8 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1478C0E527AD602F00DC25F8 /* WelcomeViewController.swift */; };
+		1478C0E827AD604C00DC25F8 /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1478C0E727AD604C00DC25F8 /* Welcome.storyboard */; };
+		1478C0EB27AD621E00DC25F8 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1478C0EA27AD621400DC25F8 /* Merriweather-Regular.ttf */; };
 		14834F5E27A0867A0079DEB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14834F5D27A0867A0079DEB4 /* AppDelegate.swift */; };
 		14834F6027A0867A0079DEB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14834F5F27A0867A0079DEB4 /* SceneDelegate.swift */; };
 		14834F6227A0867A0079DEB4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14834F6127A0867A0079DEB4 /* MainViewController.swift */; };
@@ -18,13 +35,29 @@
 		14834F6D27A0867B0079DEB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14834F6B27A0867B0079DEB4 /* LaunchScreen.storyboard */; };
 		14C00C2E27A850870091B76A /* Gelasio-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14C00C2D27A850870091B76A /* Gelasio-Bold.ttf */; };
 		14C00C3027A850940091B76A /* Gelasio-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14C00C2F27A850940091B76A /* Gelasio-SemiBold.ttf */; };
-		14C00C3327A851180091B76A /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14C00C3227A851180091B76A /* NunitoSans-Regular.ttf */; };
 		A7758A3E6B5654F83F0CE2A2 /* Pods_FurnitureStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0F3D4B73875069B3DB456FE /* Pods_FurnitureStore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14515AC727B2FD9F00FB8C4F /* NunitoSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		14515AC827B2FD9F00FB8C4F /* NunitoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		14515AC927B2FD9F00FB8C4F /* NunitoSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		14515ACA27B2FD9F00FB8C4F /* NunitoSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		14515ACB27B2FD9F00FB8C4F /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		14515ACC27B2FD9F00FB8C4F /* NunitoSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		14515ACD27B2FD9F00FB8C4F /* NunitoSans-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		14515ACE27B2FD9F00FB8C4F /* NunitoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Light.ttf"; sourceTree = "<group>"; };
+		14515ACF27B2FD9F00FB8C4F /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		14515AD027B2FD9F00FB8C4F /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		14515AD127B2FD9F00FB8C4F /* NunitoSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Black.ttf"; sourceTree = "<group>"; };
+		14515AD227B2FD9F00FB8C4F /* NunitoSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		14515AD327B2FD9F00FB8C4F /* NunitoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Italic.ttf"; sourceTree = "<group>"; };
+		14515AD427B2FD9F00FB8C4F /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NunitoSans-Regular.ttf"; path = "../../../../../../../../Downloads/Nunito_Sans/NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
 		1469D3B427A86B09001C5CE6 /* RootNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
 		1469D3B827A86D5F001C5CE6 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		1478C0E527AD602F00DC25F8 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		1478C0E727AD604C00DC25F8 /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		1478C0EA27AD621400DC25F8 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
 		14834F5A27A0867A0079DEB4 /* FurnitureStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FurnitureStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14834F5D27A0867A0079DEB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14834F5F27A0867A0079DEB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +69,6 @@
 		14834F6E27A0867B0079DEB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14C00C2D27A850870091B76A /* Gelasio-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-Bold.ttf"; sourceTree = "<group>"; };
 		14C00C2F27A850940091B76A /* Gelasio-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-SemiBold.ttf"; sourceTree = "<group>"; };
-		14C00C3227A851180091B76A /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
 		4C7438013CB8BE6F2B74F696 /* Pods-FurnitureStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FurnitureStore.debug.xcconfig"; path = "Target Support Files/Pods-FurnitureStore/Pods-FurnitureStore.debug.xcconfig"; sourceTree = "<group>"; };
 		A09289D0486093216845E686 /* Pods-FurnitureStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FurnitureStore.release.xcconfig"; path = "Target Support Files/Pods-FurnitureStore/Pods-FurnitureStore.release.xcconfig"; sourceTree = "<group>"; };
 		A0F3D4B73875069B3DB456FE /* Pods_FurnitureStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FurnitureStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +114,7 @@
 		141E832327A1C4E80017C3CE /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				1478C0E427AD601000DC25F8 /* Welcome */,
 				1469D3B327A86AF0001C5CE6 /* Root */,
 				141E832527A1C5440017C3CE /* Main */,
 			);
@@ -130,6 +163,23 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		1478C0E427AD601000DC25F8 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				1478C0E527AD602F00DC25F8 /* WelcomeViewController.swift */,
+				1478C0E727AD604C00DC25F8 /* Welcome.storyboard */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		1478C0E927AD620000DC25F8 /* Merriweather */ = {
+			isa = PBXGroup;
+			children = (
+				1478C0EA27AD621400DC25F8 /* Merriweather-Regular.ttf */,
+			);
+			path = Merriweather;
+			sourceTree = "<group>";
+		};
 		14834F5127A0867A0079DEB4 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +206,7 @@
 				141E832127A1C4490017C3CE /* CoreData */,
 				141E832227A1C4E10017C3CE /* Models */,
 				141E832327A1C4E80017C3CE /* Modules */,
+				14F6A14227B18F6100E0E945 /* Parents */,
 				141E832427A1C5070017C3CE /* Resources */,
 				1469D3B627A86D3D001C5CE6 /* Utils */,
 			);
@@ -165,6 +216,7 @@
 		14C00C2B27A850570091B76A /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				1478C0E927AD620000DC25F8 /* Merriweather */,
 				14C00C3127A850F00091B76A /* NuninoSans */,
 				14C00C2C27A8506F0091B76A /* Gelasio */,
 			);
@@ -183,9 +235,29 @@
 		14C00C3127A850F00091B76A /* NuninoSans */ = {
 			isa = PBXGroup;
 			children = (
-				14C00C3227A851180091B76A /* NunitoSans-Regular.ttf */,
+				14515AD127B2FD9F00FB8C4F /* NunitoSans-Black.ttf */,
+				14515ACD27B2FD9F00FB8C4F /* NunitoSans-BlackItalic.ttf */,
+				14515ACF27B2FD9F00FB8C4F /* NunitoSans-Bold.ttf */,
+				14515AC827B2FD9F00FB8C4F /* NunitoSans-BoldItalic.ttf */,
+				14515AD027B2FD9F00FB8C4F /* NunitoSans-ExtraBold.ttf */,
+				14515ACA27B2FD9F00FB8C4F /* NunitoSans-ExtraBoldItalic.ttf */,
+				14515ACC27B2FD9F00FB8C4F /* NunitoSans-ExtraLight.ttf */,
+				14515AC927B2FD9F00FB8C4F /* NunitoSans-ExtraLightItalic.ttf */,
+				14515AD327B2FD9F00FB8C4F /* NunitoSans-Italic.ttf */,
+				14515ACE27B2FD9F00FB8C4F /* NunitoSans-Light.ttf */,
+				14515AD227B2FD9F00FB8C4F /* NunitoSans-LightItalic.ttf */,
+				14515AD427B2FD9F00FB8C4F /* NunitoSans-Regular.ttf */,
+				14515ACB27B2FD9F00FB8C4F /* NunitoSans-SemiBold.ttf */,
+				14515AC727B2FD9F00FB8C4F /* NunitoSans-SemiBoldItalic.ttf */,
 			);
 			path = NuninoSans;
+			sourceTree = "<group>";
+		};
+		14F6A14227B18F6100E0E945 /* Parents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Parents;
 			sourceTree = "<group>";
 		};
 		413C20586F1183B3065DDBC4 /* Pods */ = {
@@ -216,6 +288,7 @@
 				14834F5627A0867A0079DEB4 /* Sources */,
 				14834F5727A0867A0079DEB4 /* Frameworks */,
 				14834F5827A0867A0079DEB4 /* Resources */,
+				99ED6A63845F1FC1B9129EC6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,18 +337,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14515AE127B2FD9F00FB8C4F /* NunitoSans-Italic.ttf in Resources */,
 				14834F6D27A0867B0079DEB4 /* LaunchScreen.storyboard in Resources */,
-				14C00C3327A851180091B76A /* NunitoSans-Regular.ttf in Resources */,
+				14515AD727B2FD9F00FB8C4F /* NunitoSans-ExtraLightItalic.ttf in Resources */,
+				1478C0EB27AD621E00DC25F8 /* Merriweather-Regular.ttf in Resources */,
+				14515AE227B2FD9F00FB8C4F /* NunitoSans-Regular.ttf in Resources */,
+				14515AD827B2FD9F00FB8C4F /* NunitoSans-ExtraBoldItalic.ttf in Resources */,
+				14515ADD27B2FD9F00FB8C4F /* NunitoSans-Bold.ttf in Resources */,
 				14834F6A27A0867B0079DEB4 /* Assets.xcassets in Resources */,
+				14515ADA27B2FD9F00FB8C4F /* NunitoSans-ExtraLight.ttf in Resources */,
+				14515ADC27B2FD9F00FB8C4F /* NunitoSans-Light.ttf in Resources */,
 				14C00C2E27A850870091B76A /* Gelasio-Bold.ttf in Resources */,
+				14515ADE27B2FD9F00FB8C4F /* NunitoSans-ExtraBold.ttf in Resources */,
+				14515AD927B2FD9F00FB8C4F /* NunitoSans-SemiBold.ttf in Resources */,
+				14515AD627B2FD9F00FB8C4F /* NunitoSans-BoldItalic.ttf in Resources */,
 				14834F6527A0867A0079DEB4 /* Main.storyboard in Resources */,
 				14C00C3027A850940091B76A /* Gelasio-SemiBold.ttf in Resources */,
+				14515ADF27B2FD9F00FB8C4F /* NunitoSans-Black.ttf in Resources */,
+				1478C0E827AD604C00DC25F8 /* Welcome.storyboard in Resources */,
+				14515ADB27B2FD9F00FB8C4F /* NunitoSans-BlackItalic.ttf in Resources */,
+				14515AD527B2FD9F00FB8C4F /* NunitoSans-SemiBoldItalic.ttf in Resources */,
+				14515AE027B2FD9F00FB8C4F /* NunitoSans-LightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		99ED6A63845F1FC1B9129EC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FurnitureStore/Pods-FurnitureStore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FurnitureStore/Pods-FurnitureStore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FurnitureStore/Pods-FurnitureStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AC5BF4E1184F752556936F4E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -311,6 +416,7 @@
 				14834F5E27A0867A0079DEB4 /* AppDelegate.swift in Sources */,
 				14834F6027A0867A0079DEB4 /* SceneDelegate.swift in Sources */,
 				1469D3B527A86B09001C5CE6 /* RootNavigationController.swift in Sources */,
+				1478C0E627AD602F00DC25F8 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,7 +571,6 @@
 				INFOPLIST_FILE = FurnitureStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -496,7 +601,6 @@
 				INFOPLIST_FILE = FurnitureStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

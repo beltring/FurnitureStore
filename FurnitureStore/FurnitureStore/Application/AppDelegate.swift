@@ -15,11 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
-        let vc = RootNavigationController()
-        vc.setRootController()
-        window?.rootViewController = vc
-        window?.makeKeyAndVisible()
-
         return true
     }
 

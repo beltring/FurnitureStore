@@ -9,7 +9,7 @@ import UIKit
 
 final class RootNavigationController: UINavigationController {
     func setRootController() {
-        let vc = MainViewController.initial()
+        let vc = WelcomeViewController.initial()
         setViewControllers([vc], animated: false)
     }
 }
